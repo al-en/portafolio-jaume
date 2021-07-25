@@ -7,7 +7,8 @@
 }
 
 .formulario{
-    margin-block-end: 80px;
+    padding-block-start: 40px;
+    padding-block-end: 80px;
 }
 
 .formulario label{
@@ -35,6 +36,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .formulario{
+        padding-block-start: 80px;
+    }
+
     .formulario .title{
         align-self: stretch;
     }

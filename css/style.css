@@ -10,6 +10,7 @@
 @import "./footer.css";
 @import "./formulario.css";
 @import "./title.css";
+@import "./testimony.css";
 
 :root{
     --fontBase: 'Poppins', sans-serif;
@@ -18,6 +19,7 @@
     --headline3: bold 48px/77.66px var(--fontBase);
     --headline4: bold 34px/55px var(--fontBase);
     --headline5: bold 24px/38px var(--fontBase);
+    --headline6: bold 16px/24px var(--fontBase);
     --body1: 16px/25px var(--fontBase);
     --body2: 14px/22px var(--fontBase);
     --button: bold 14px/22px var(--fontBase);

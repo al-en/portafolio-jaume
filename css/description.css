@@ -10,3 +10,14 @@
 .description img{
     width: 46px;
 }
+
+@media screen and (min-width:768px) {
+    .description p:first-of-type{
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .description{
+        padding: 200px;
+    }
+}

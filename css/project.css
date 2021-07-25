@@ -1,8 +1,7 @@
 .project{
     padding-block-start: 40px;
-    padding-block-end: 40px;
+    padding-block-end: 40px; 
 }
-
 .project-image{
     max-inline-size: 100%;
 }
@@ -26,9 +25,17 @@
         flex: 1;
     }
 
-    .project:nth-child(odd) .project-image{
-        order: 2;
+    .project-image{
         flex: 1;
         text-align: center;
+    }
+
+    .project:nth-child(odd) .project-image{
+        order: 2;
+    }
+
+    .project .buttons{
+        display: flex;
+        flex-direction: row;
     }
 }
